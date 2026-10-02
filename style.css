@@ -1,0 +1,102 @@
+/* ESTILO GENERAL*/
+
+QMainWindow {
+    background-color: #101214;
+}
+
+QWidget {
+    background-color: #101214;
+    color: #F1F3F4;
+    font-family: Arial;
+}
+
+
+/*PANELES*/
+
+QFrame {
+    background-color: #15181B;
+    border: 1px solid #34383D;
+    border-radius: 10px;
+}
+
+
+/*TÍTULOS*/
+
+QLabel#titulo {
+    color: #A8FFB8;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+}
+
+QLabel#seccion {
+    color: #F1F3F4;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+}
+
+
+/*BOTONES*/
+
+QPushButton {
+    background-color: #20252A;
+    color: #F1F3F4;
+
+    border: 1px solid #3A4148;
+    border-radius: 7px;
+
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #2A3138;
+}
+
+QPushButton:pressed {
+    background-color: #15181B;
+}
+
+
+/*PARO DE EMERGENCIA*/
+
+QPushButton#emergencia {
+
+    background-color: #3A1111;
+
+    color: #FF6B66;
+
+    border: 2px solid #E53935;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    padding: 12px;
+}
+
+QPushButton#emergencia:hover {
+
+    background-color: #551616;
+}
+
+QPushButton#emergencia:pressed {
+
+    background-color: #280909;
+}
+
+/*VIDEO*/
+
+QLabel#video {
+    background-color: #080A0C;
+    color: #687078;
+
+    border: 2px solid #34383D;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
