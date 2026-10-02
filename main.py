@@ -27,9 +27,7 @@ from PySide6.QtGui import QImage, QPixmap
 # ============================================================
 
 # Ruta del modelo YOLO11 entrenado
-MODEL_PATH = Path(
-    r"C:\YOLO11\runs\detect\platanos_final\weights\best.pt"
-)
+MODEL_PATH = Path(__file__).resolve().parent / "modelo" / "best.pt"
 
 # Cámara principal
 CAMERA_INDEX = 0
